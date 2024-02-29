@@ -22,7 +22,7 @@ final class TransactionListViewModel: ObservableObject { // это часть co
 	
 	func getTransactions() {
 		guard let url = URL(string: "https://designcode.io/data/transactions.json") else {
-			print("invalid url :c ")
+			print("invalid")
 			return
 		}
 		
