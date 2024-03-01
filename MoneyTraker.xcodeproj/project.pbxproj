@@ -23,6 +23,7 @@
 		514FBA1B2B8B735300575B5E /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 514FBA1A2B8B735300575B5E /* SwiftUIFontIcon */; };
 		514FBA1F2B8B7CB900575B5E /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514FBA1E2B8B7CB900575B5E /* TransactionListViewModel.swift */; };
 		514FBA252B8BA12F00575B5E /* RecentTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514FBA242B8BA12F00575B5E /* RecentTransactions.swift */; };
+		518DBD9B2B92481D00F6E771 /* TranactionDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 518DBD992B92481D00F6E771 /* TranactionDataModel.xcdatamodeld */; };
 		519B157F2B8A71AC00C564A8 /* MoneyTrakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B157E2B8A71AC00C564A8 /* MoneyTrakerApp.swift */; };
 		519B15812B8A71AC00C564A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B15802B8A71AC00C564A8 /* ContentView.swift */; };
 		519B15832B8A71AF00C564A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519B15822B8A71AF00C564A8 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		514FBA1E2B8B7CB900575B5E /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		514FBA202B8B8D0900575B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		514FBA242B8BA12F00575B5E /* RecentTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactions.swift; sourceTree = "<group>"; };
+		518DBD9A2B92481D00F6E771 /* TranactionDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TranactionDataModel.xcdatamodel; sourceTree = "<group>"; };
 		519B157B2B8A71AC00C564A8 /* MoneyTraker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTraker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519B157E2B8A71AC00C564A8 /* MoneyTrakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrakerApp.swift; sourceTree = "<group>"; };
 		519B15802B8A71AC00C564A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		518DBD982B9247C000F6E771 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				518DBD992B92481D00F6E771 /* TranactionDataModel.xcdatamodeld */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		519B15722B8A71AC00C564A8 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 		519B157D2B8A71AC00C564A8 /* MoneyTraker */ = {
 			isa = PBXGroup;
 			children = (
+				518DBD982B9247C000F6E771 /* Services */,
 				514FBA0D2B8B535C00575B5E /* Support Files */,
 				514FBA202B8B8D0900575B5E /* Info.plist */,
 				519B157E2B8A71AC00C564A8 /* MoneyTrakerApp.swift */,
@@ -244,6 +255,7 @@
 				519B15812B8A71AC00C564A8 /* ContentView.swift in Sources */,
 				51189A7E2B8E351700D0E81E /* TransactionList.swift in Sources */,
 				514FBA182B8B647300575B5E /* TransactionRow.swift in Sources */,
+				518DBD9B2B92481D00F6E771 /* TranactionDataModel.xcdatamodeld in Sources */,
 				519B157F2B8A71AC00C564A8 /* MoneyTrakerApp.swift in Sources */,
 				519B158D2B8A72ED00C564A8 /* Extentions.swift in Sources */,
 				51189A8F2B8E5AE100D0E81E /* TransactionCart.swift in Sources */,
@@ -509,6 +521,19 @@
 			productName = SwiftUIFontIcon;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		518DBD992B92481D00F6E771 /* TranactionDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				518DBD9A2B92481D00F6E771 /* TranactionDataModel.xcdatamodel */,
+			);
+			currentVersion = 518DBD9A2B92481D00F6E771 /* TranactionDataModel.xcdatamodel */;
+			path = TranactionDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 519B15732B8A71AC00C564A8 /* Project object */;
 }
