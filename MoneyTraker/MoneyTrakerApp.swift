@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct MoneyTrakerApp: App {
-	@StateObject var transactionVM = TransactionListViewModel()
+	let persistenceController = CoreDataController.sheared
     var body: some Scene {
         WindowGroup {
             ContentView()
-				.environmentObject(transactionVM)
+				.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
