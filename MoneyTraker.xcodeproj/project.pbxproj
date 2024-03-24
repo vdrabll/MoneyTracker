@@ -14,6 +14,9 @@
 		51164C692BB02664009EC15B /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C632BB02664009EC15B /* Transaction+CoreDataClass.swift */; };
 		51164C6A2BB02664009EC15B /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C642BB02664009EC15B /* Transaction+CoreDataProperties.swift */; };
 		51164C6C2BB033FC009EC15B /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C6B2BB033FC009EC15B /* CoreDataProvider.swift */; };
+		51164C6E2BB066DA009EC15B /* MainScren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C6D2BB066DA009EC15B /* MainScren.swift */; };
+		51164C702BB06814009EC15B /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C6F2BB06814009EC15B /* AccountsView.swift */; };
+		51164C722BB0737B009EC15B /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51164C712BB0737B009EC15B /* TransactionRow.swift */; };
 		51189A812B8E3EDD00D0E81E /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 51189A802B8E3EDD00D0E81E /* BitCollections */; };
 		51189A832B8E3EDD00D0E81E /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 51189A822B8E3EDD00D0E81E /* Collections */; };
 		51189A852B8E3EDD00D0E81E /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 51189A842B8E3EDD00D0E81E /* DequeModule */; };
@@ -39,6 +42,9 @@
 		51164C632BB02664009EC15B /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Transaction+CoreDataClass.swift"; path = "MoneyTraker/Support Files/Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
 		51164C642BB02664009EC15B /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Transaction+CoreDataProperties.swift"; path = "MoneyTraker/Support Files/Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		51164C6B2BB033FC009EC15B /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		51164C6D2BB066DA009EC15B /* MainScren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScren.swift; sourceTree = "<group>"; };
+		51164C6F2BB06814009EC15B /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		51164C712BB0737B009EC15B /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		514FBA0E2B8B537600575B5E /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		514FBA1E2B8B7CB900575B5E /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		514FBA202B8B8D0900575B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				519B15802B8A71AC00C564A8 /* ContentView.swift */,
+				51164C6D2BB066DA009EC15B /* MainScren.swift */,
+				51164C6F2BB06814009EC15B /* AccountsView.swift */,
+				51164C712BB0737B009EC15B /* TransactionRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,12 +260,15 @@
 				51164C652BB02664009EC15B /* Category+CoreDataClass.swift in Sources */,
 				51164C692BB02664009EC15B /* Transaction+CoreDataClass.swift in Sources */,
 				51164C682BB02664009EC15B /* Account+CoreDataProperties.swift in Sources */,
+				51164C702BB06814009EC15B /* AccountsView.swift in Sources */,
 				514FBA1F2B8B7CB900575B5E /* TransactionListViewModel.swift in Sources */,
+				51164C6E2BB066DA009EC15B /* MainScren.swift in Sources */,
 				519B15812B8A71AC00C564A8 /* ContentView.swift in Sources */,
 				51164C662BB02664009EC15B /* Category+CoreDataProperties.swift in Sources */,
 				518DBD9B2B92481D00F6E771 /* TranactionDataModel.xcdatamodeld in Sources */,
 				51164C6A2BB02664009EC15B /* Transaction+CoreDataProperties.swift in Sources */,
 				519B157F2B8A71AC00C564A8 /* MoneyTrakerApp.swift in Sources */,
+				51164C722BB0737B009EC15B /* TransactionRow.swift in Sources */,
 				519B158D2B8A72ED00C564A8 /* Extentions.swift in Sources */,
 				51164C6C2BB033FC009EC15B /* CoreDataProvider.swift in Sources */,
 			);

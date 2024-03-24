@@ -11,9 +11,19 @@ struct ContentView: View {
 	
 	var body: some View {
 		VStack {
+			TabView {
+				MainScren().tabItem {
+					Text("Transactions")
+				}
+				AccountsView().tabItem {
+					Text("Accounts")
+				}
+			}
 			
 		}
 	}
+	
+	
 }
 
 
