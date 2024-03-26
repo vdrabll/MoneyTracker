@@ -15,7 +15,7 @@ struct ContentView: View {
 				MainScren().tabItem {
 					Text("Transactions")
 				}
-				AccountsView().tabItem {
+				AccountListView().tabItem {
 					Text("Accounts")
 				}
 			}

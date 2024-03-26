@@ -17,14 +17,19 @@ struct TransactionRow: View {
 			Text(String(amound))
 				.bold()
 				.fontWeight(.heavy)
-			Spacer()
+			
 			VStack {
 				Text(name)
-					.fontWeight(.medium)
 				Text(cathegory)
-					.fontWeight(.light)
+					.font(.caption)
+					
+				
 			}
-		}.padding(10)
+			Spacer()
+			
+			Text(Date(), style: .date)
+				
+		}
     }
 }
 
