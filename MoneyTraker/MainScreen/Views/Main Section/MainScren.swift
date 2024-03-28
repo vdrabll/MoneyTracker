@@ -23,9 +23,10 @@ struct MainScren: View {
 					NavigationLink( "  +       ", destination: TransactionView())
 						.font(.title)
 				}
+				.padding()
 				.frame(alignment: .center)
 				
-				DatePicker("Ваши траты", selection: $selectedDate,  displayedComponents: [.date])
+				DatePicker(" ", selection: $selectedDate,  displayedComponents: [.date])
 					.datePickerStyle(.graphical)
 					}
 				
