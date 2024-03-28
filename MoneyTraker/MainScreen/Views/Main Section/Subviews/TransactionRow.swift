@@ -8,28 +8,22 @@
 import SwiftUI
 
 struct TransactionRow: View {
-	var amound = 11
-	var name = "Iphone"
-	var cathegory = "Electronic"
+	@State var amound = 11
+	@State var name = "Iphone"
+	@State var cathegory = "Electronic"
 	
     var body: some View {
 		HStack {
 			Text(String(amound))
 				.bold()
 				.fontWeight(.heavy)
-			
+			Spacer()
 			VStack {
 				Text(name)
 				Text(cathegory)
 					.font(.caption)
-					
-				
 			}
-			Spacer()
-			
-			Text(Date(), style: .date)
-				
-		}
+		}.padding()
     }
 }
 
